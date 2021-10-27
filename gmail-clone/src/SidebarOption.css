@@ -1,0 +1,33 @@
+
+.sidebar_option{
+    color: #818181;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+
+}
+.sidebar_option--unactive:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.sidebar_option--active {
+    background-color: #fcecec;
+   }
+.sidebar_option--active > p {
+    color: #c04b37;
+    font-weight: 800;
+}
+.side{
+    display: flex;
+    align-items: center;
+}
+.side > p{
+    margin-left: 10px !important;
+}
+

@@ -1,0 +1,20 @@
+.feedOption{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.feedOption:hover{
+  
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.feedOption > p{
+    margin-left: 5px;
+    font-weight: bold;
+    color: gray;
+    
+}
+
+

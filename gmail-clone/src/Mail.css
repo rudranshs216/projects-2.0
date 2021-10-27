@@ -1,0 +1,41 @@
+.mail{
+    flex: 1;
+    background-color: whitesmoke;
+    height: 100vh + 10px;
+    
+}
+.mail_icon{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: white;
+    height: 45px;
+}
+
+.mail_body{
+    height: 100vh;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    box-shadow: 0 4px 4px 4px rgb(196, 196, 196);
+    padding: 20px;
+}
+.mail_bodyHeader{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+
+.subject{
+    font-weight: 600;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.time{
+    position: absolute;
+    top: 185px;
+    right: 50px;
+    color: gray;
+}
